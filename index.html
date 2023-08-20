@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 1</title>
+    <style>
+        table,th,td {border: 2px solid black; border-collapse: collapse;}
+        </style>
+</head>
+<body>    
+    <header>
+        <h1>Feira do IFRS</h1>
+        <p><i><b>Bem vindo a melhor feira de todos os IF.</b></i></p>
+    </header>
+    <nav>
+        <ul>
+            <li>Menu</li>
+            <li>Principal</li>
+            <li>Produtos</li>
+            <li>Serviços</li>
+            <li>Sobre</li>
+        </ul>
+    </nav>
+    <main>
+        <ol type="1">
+            <li>Frutas
+                <ul style="list-style-type: disc;">
+                    <li>Banana</li>
+                    <li>Maça</li>
+                    <li>Abacate</li>
+                </ul>
+            </li>
+            <li>Legumes
+                <ul style="list-style-type: disc;">
+                    <li>Cebola</li>
+                    <li>Pimentão</li>
+                </ul>
+            </li>
+            <li>Cereais
+                <ul style="list-style-type: disc;">
+                    <li>Arroz</li>
+                    <li>Feijão</li>
+                </ul>
+            </li>
+        </ol>       
+        <table>            
+            <caption>Lucro por mês</caption>
+            <thead>
+                <tr aria-colspan="3">
+                    <th>Mês</th>
+                    <th colspan="2">Frutas</th>                  
+                                       
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Banana</td>
+                    <td>Maça</td>
+                </tr>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <figure>
+            <img src="img/Feira.png" alt="Imagem 1">
+            <figcaption>Venha conhecer a melhor feira do IF</figcaption>
+        </figure>
+        <a href="https://www.ifrs.edu.br">
+            <img src="img/feira-hortifruti.gif" alt="Imagem 2">
+        </a>
+
+        <form>
+            <fieldset>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" name="tel"><br>
+
+                <label for="text">Texto:</label>
+                <textarea id="text" name="text" rows="4" cols="50"></textarea><br>
+
+                <label for="number">Número:</label>
+                <input type="number" id="number" name="number"><br>
+
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date"><br>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=PlJnoY6LZ3s" frameborder="0" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <p>IFRS RIO GRANDE</p>
+    </footer>
+</body>
+</html>
